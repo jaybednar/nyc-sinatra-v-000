@@ -66,7 +66,6 @@ class FiguresController < ApplicationController
 			end 
 		end 
 		@figure.update(params[:figure])
-# binding.pry
 		redirect to "/figures/#{@figure.id}"
 	end 
 end 
